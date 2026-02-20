@@ -17,7 +17,7 @@ enum class LogLevel
 };
 
 inline LogLevel g_log_level = LogLevel::Error;
-inline std::vector<std::string> g_error_log;
+inline std::vector<std::string> g_log_entries;
 
 inline void log_msg( LogLevel level, const char* fmt, ... )
 {
@@ -42,23 +42,18 @@ inline void log_msg( LogLevel level, const char* fmt, ... )
 
     va_end( args );
 
-    printf( "%s%s\n", prefix, buf );
-
-    if ( level == LogLevel::Error )
-    {
-        g_error_log.push_back( std::string( prefix ) + buf );
-    }
+    g_log_entries.push_back( std::string( prefix ) + buf );
 }
 
-inline void flush_error_log( const std::string& path = "cs2-dumper.log" )
+inline void flush_log( const std::string& path = "cs2-dumper.log" )
 {
-    if ( g_error_log.empty( ) )
+    if ( g_log_entries.empty( ) )
         return;
 
     FILE* f = fopen( path.c_str( ), "w" );
     if ( !f ) return;
 
-    for ( const auto& line : g_error_log )
+    for ( const auto& line : g_log_entries )
     {
         fprintf( f, "%s\n", line.c_str( ) );
     }

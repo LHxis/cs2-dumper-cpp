@@ -144,13 +144,13 @@ int main( int argc, char* argv[ ] )
         fprintf( stderr, "Error: %s\n", e.what( ) );
 
         if ( !args.no_log_file )
-            flush_error_log( );
+            flush_log( );
 
         return 1;
     }
 
     if ( !args.no_log_file )
-        flush_error_log( );
+        flush_log( );
 
     return 0;
 }
