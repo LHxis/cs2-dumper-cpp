@@ -18,7 +18,7 @@ struct Args
     int indent_size = 4;
     std::filesystem::path output_dir = "output";
     std::string process_name = "cs2.exe";
-    int verbose = 0;
+    int verbose = 2;
     bool no_log_file = false;
 };
 
