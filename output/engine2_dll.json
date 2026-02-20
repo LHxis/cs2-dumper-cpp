@@ -1,0 +1,600 @@
+{
+    "engine2.dll": {
+        "classes": {
+            "CEntityInstance": {
+                "parent": null,
+                "fields": {
+                    "m_iszPrivateVScripts": 8,
+                    "m_pEntity": 16,
+                    "m_CScriptComponent": 48
+                },
+                "metadata": [
+                    {
+                        "type": "NetworkVarNames",
+                        "name": "m_pEntity",
+                        "type_name": "CEntityIdentity*"
+                    },
+                    {
+                        "type": "NetworkVarNames",
+                        "name": "m_CScriptComponent",
+                        "type_name": "CScriptComponent::Storage_t"
+                    }
+                ]
+            },
+            "CEntityComponent": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CScriptComponent": {
+                "parent": "CEntityComponent",
+                "fields": {
+                    "m_scriptClassName": 48
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CEntityIdentity": {
+                "parent": null,
+                "fields": {
+                    "m_nameStringableIndex": 20,
+                    "m_name": 24,
+                    "m_designerName": 32,
+                    "m_flags": 48,
+                    "m_worldGroupId": 56,
+                    "m_fDataObjectTypes": 60,
+                    "m_PathIndex": 64,
+                    "m_pAttributes": 72,
+                    "m_pPrev": 80,
+                    "m_pNext": 88,
+                    "m_pPrevByClass": 96,
+                    "m_pNextByClass": 104
+                },
+                "metadata": [
+                    {
+                        "type": "NetworkVarNames",
+                        "name": "m_nameStringableIndex",
+                        "type_name": "int32"
+                    }
+                ]
+            },
+            "EventClientPostSimulate_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventSimpleLoopFrameUpdate_t": {
+                "parent": null,
+                "fields": {
+                    "m_LoopState": 0,
+                    "m_flRealTime": 40,
+                    "m_flFrameTime": 44
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventPostAdvanceTick_t": {
+                "parent": null,
+                "fields": {
+                    "m_nCurrentTick": 48,
+                    "m_nCurrentTickThisFrame": 52,
+                    "m_nTotalTicksThisFrame": 56,
+                    "m_nTotalTicks": 60
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CEntityIOOutput": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientSceneSystemThreadStateChange_t": {
+                "parent": null,
+                "fields": {
+                    "m_bThreadsActive": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientOutput_t": {
+                "parent": null,
+                "fields": {
+                    "m_LoopState": 0,
+                    "m_flRenderTime": 40,
+                    "m_flRealTime": 44,
+                    "m_flRenderFrameTimeUnbounded": 48,
+                    "m_bRenderOnly": 52
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventServerPostSimulate_t": {
+                "parent": null,
+                "fields": {
+                    "m_bLastTickBeforeClientUpdate": 48
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CEntityComponentHelper": {
+                "parent": null,
+                "fields": {
+                    "m_flags": 8,
+                    "m_pInfo": 16,
+                    "m_nPriority": 24,
+                    "m_pNext": 32
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "GameTime_t": {
+                "parent": null,
+                "fields": {
+                    "m_Value": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventServerBeginSimulate_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventServerEndAsyncPostTickWork_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientAdvanceTick_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EntInput_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CNetworkVarChainer": {
+                "parent": null,
+                "fields": {
+                    "m_PathIndex": 32
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientSimulate_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientPostOutput_t": {
+                "parent": null,
+                "fields": {
+                    "m_LoopState": 0,
+                    "m_flRenderTime": 40,
+                    "m_flRenderFrameTime": 48,
+                    "m_flRenderFrameTimeUnbounded": 52,
+                    "m_bRenderOnly": 56
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "GameTick_t": {
+                "parent": null,
+                "fields": {
+                    "m_Value": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientPollInput_t": {
+                "parent": null,
+                "fields": {
+                    "m_LoopState": 0,
+                    "m_flRealTime": 40
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventPreDataUpdate_t": {
+                "parent": null,
+                "fields": {
+                    "m_nCount": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientProcessGameInput_t": {
+                "parent": null,
+                "fields": {
+                    "m_LoopState": 0,
+                    "m_flRealTime": 40,
+                    "m_flFrameTime": 44
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventFrameBoundary_t": {
+                "parent": null,
+                "fields": {
+                    "m_flFrameTime": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventAppShutdown_t": {
+                "parent": null,
+                "fields": {
+                    "m_nDummy0": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventServerPostAdvanceTick_t": {
+                "parent": null,
+                "fields": {
+                    "m_bLastTickBeforeClientUpdate": 64
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventProfileStorageAvailable_t": {
+                "parent": null,
+                "fields": {
+                    "m_nSplitScreenSlot": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventPostDataUpdate_t": {
+                "parent": null,
+                "fields": {
+                    "m_nCount": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientPreSimulate_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientPauseSimulate_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientProcessNetworking_t": {
+                "parent": null,
+                "fields": {
+                    "m_nTickCount": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CEntityAttributeTable": {
+                "parent": null,
+                "fields": {
+                    "m_Attributes": 0,
+                    "m_Names": 40
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientPreOutputParallelWithServer_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventAdvanceTick_t": {
+                "parent": null,
+                "fields": {
+                    "m_nCurrentTick": 48,
+                    "m_nCurrentTickThisFrame": 52,
+                    "m_nTotalTicksThisFrame": 56,
+                    "m_nTotalTicks": 60
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventSplitScreenStateChanged_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientPostAdvanceTick_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CVariantDefaultAllocator": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventModInitialized_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientPreOutput_t": {
+                "parent": null,
+                "fields": {
+                    "m_LoopState": 0,
+                    "m_flRenderTime": 40,
+                    "m_flRenderFrameTime": 48,
+                    "m_flRenderFrameTimeUnbounded": 56,
+                    "m_flRealTime": 64,
+                    "m_bRenderOnly": 68
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientFrameSimulate_t": {
+                "parent": null,
+                "fields": {
+                    "m_LoopState": 0,
+                    "m_flRealTime": 40,
+                    "m_flFrameTime": 44,
+                    "m_bScheduleSendTickPacket": 48
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventServerAdvanceTick_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventSetTime_t": {
+                "parent": null,
+                "fields": {
+                    "m_LoopState": 0,
+                    "m_nClientOutputFrames": 40,
+                    "m_flRealTime": 48,
+                    "m_flRenderTime": 56,
+                    "m_flRenderFrameTime": 64,
+                    "m_flRenderFrameTimeUnbounded": 72,
+                    "m_flRenderFrameTimeUnscaled": 80,
+                    "m_flTickRemainder": 88
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EntOutput_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventSimulate_t": {
+                "parent": null,
+                "fields": {
+                    "m_LoopState": 0,
+                    "m_bFirstTick": 40,
+                    "m_bLastTick": 41
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientAdvanceNonRenderedFrame_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventServerProcessNetworking_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CEmptyEntityInstance": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EntComponentInfo_t": {
+                "parent": null,
+                "fields": {
+                    "m_pName": 0,
+                    "m_pCPPClassname": 8,
+                    "m_pNetworkDataReferencedDescription": 16,
+                    "m_pNetworkDataReferencedPtrPropDescription": 24,
+                    "m_nRuntimeIndex": 32,
+                    "m_nFlags": 36,
+                    "m_pBaseClassComponentHelper": 96
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EngineLoopState_t": {
+                "parent": null,
+                "fields": {
+                    "m_nPlatWindowWidth": 24,
+                    "m_nPlatWindowHeight": 28,
+                    "m_nRenderWidth": 32,
+                    "m_nRenderHeight": 36
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientPollNetworking_t": {
+                "parent": null,
+                "fields": {
+                    "m_nTickCount": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventServerBeginAsyncPostTickWork_t": {
+                "parent": null,
+                "fields": {
+                    "m_bIsOncePerFrameAsyncWorkPhase": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventClientProcessInput_t": {
+                "parent": null,
+                "fields": {
+                    "m_LoopState": 0,
+                    "m_flRealTime": 40,
+                    "m_flTickInterval": 44,
+                    "m_flTickStartTime": 48
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventServerEndSimulate_t": {
+                "parent": null,
+                "fields": {
+                    "m_bLastTick": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "EventServerPollNetworking_t": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            }
+        },
+        "enums": {
+            "EntityDormancyType_t": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "ENTITY_NOT_DORMANT": 0,
+                    "ENTITY_DORMANT": 1,
+                    "ENTITY_SUSPENDED": 2
+                }
+            },
+            "EntityIOTargetType_t": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "ENTITY_IO_TARGET_INVALID": -1,
+                    "ENTITY_IO_TARGET_ENTITYNAME": 2,
+                    "ENTITY_IO_TARGET_EHANDLE": 6,
+                    "ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME": 7
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+# Binários compilados
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+
+# Pastas de build
+build/
+x64/
+x86/
+Debug/
+Release/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+ipch/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Outros
+*.log
+Thumbs.db
+.DS_Store

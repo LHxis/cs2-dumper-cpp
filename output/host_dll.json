@@ -1,0 +1,27 @@
+{
+    "host.dll": {
+        "classes": {
+            "EmptyTestScript": {
+                "parent": null,
+                "fields": {
+                    "m_hTest": 16
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CAnimScriptBase": {
+                "parent": null,
+                "fields": {
+                    "m_bIsValid": 8
+                },
+                "metadata": [
+                    
+                ]
+            }
+        },
+        "enums": {
+            
+        }
+    }
+}

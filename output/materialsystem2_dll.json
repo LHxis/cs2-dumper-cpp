@@ -1,0 +1,290 @@
+{
+    "materialsystem2.dll": {
+        "classes": {
+            "MaterialParam_t": {
+                "parent": null,
+                "fields": {
+                    "m_name": 0
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "MaterialParamVector_t": {
+                "parent": null,
+                "fields": {
+                    "m_value": 8
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "MaterialParamString_t": {
+                "parent": null,
+                "fields": {
+                    "m_value": 8
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "PostProcessingResource_t": {
+                "parent": null,
+                "fields": {
+                    "m_bHasTonemapParams": 0,
+                    "m_toneMapParams": 4,
+                    "m_bHasBloomParams": 64,
+                    "m_bloomParams": 68,
+                    "m_bHasVignetteParams": 204,
+                    "m_vignetteParams": 208,
+                    "m_bHasLocalContrastParams": 244,
+                    "m_localConstrastParams": 248,
+                    "m_nColorCorrectionVolumeDim": 268,
+                    "m_colorCorrectionVolumeData": 272,
+                    "m_bHasColorCorrection": 288,
+                    "m_bHasFogScatteringParams": 289,
+                    "m_fogScatteringParams": 292
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "MaterialParamInt_t": {
+                "parent": null,
+                "fields": {
+                    "m_nValue": 8
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "PostProcessingVignetteParameters_t": {
+                "parent": null,
+                "fields": {
+                    "m_flVignetteStrength": 0,
+                    "m_vCenter": 4,
+                    "m_flRadius": 12,
+                    "m_flRoundness": 16,
+                    "m_flFeather": 20,
+                    "m_vColorTint": 24
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "PostProcessingLocalContrastParameters_t": {
+                "parent": null,
+                "fields": {
+                    "m_flLocalContrastStrength": 0,
+                    "m_flLocalContrastEdgeStrength": 4,
+                    "m_flLocalContrastVignetteStart": 8,
+                    "m_flLocalContrastVignetteEnd": 12,
+                    "m_flLocalContrastVignetteBlur": 16
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "PostProcessingTonemapParameters_t": {
+                "parent": null,
+                "fields": {
+                    "m_flExposureBias": 0,
+                    "m_flShoulderStrength": 4,
+                    "m_flLinearStrength": 8,
+                    "m_flLinearAngle": 12,
+                    "m_flToeStrength": 16,
+                    "m_flToeNum": 20,
+                    "m_flToeDenom": 24,
+                    "m_flWhitePoint": 28,
+                    "m_flLuminanceSource": 32,
+                    "m_flExposureBiasShadows": 36,
+                    "m_flExposureBiasHighlights": 40,
+                    "m_flMinShadowLum": 44,
+                    "m_flMaxShadowLum": 48,
+                    "m_flMinHighlightLum": 52,
+                    "m_flMaxHighlightLum": 56
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "PostProcessingFogScatteringParameters_t": {
+                "parent": null,
+                "fields": {
+                    "m_fRadius": 0,
+                    "m_fScale": 4,
+                    "m_fCubemapScale": 8,
+                    "m_fVolumetricScale": 12,
+                    "m_fGradientScale": 16
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "MaterialParamBuffer_t": {
+                "parent": null,
+                "fields": {
+                    "m_value": 8
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "MaterialResourceData_t": {
+                "parent": null,
+                "fields": {
+                    "m_materialName": 0,
+                    "m_shaderName": 8,
+                    "m_intParams": 16,
+                    "m_floatParams": 40,
+                    "m_vectorParams": 64,
+                    "m_textureParams": 88,
+                    "m_dynamicParams": 112,
+                    "m_dynamicTextureParams": 136,
+                    "m_intAttributes": 160,
+                    "m_floatAttributes": 184,
+                    "m_vectorAttributes": 208,
+                    "m_textureAttributes": 232,
+                    "m_stringAttributes": 256,
+                    "m_renderAttributesUsed": 280
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "PostProcessingBloomParameters_t": {
+                "parent": null,
+                "fields": {
+                    "m_blendMode": 0,
+                    "m_flBloomStrength": 4,
+                    "m_flScreenBloomStrength": 8,
+                    "m_flBlurBloomStrength": 12,
+                    "m_flBloomThreshold": 16,
+                    "m_flBloomThresholdWidth": 20,
+                    "m_flSkyboxBloomStrength": 24,
+                    "m_flBloomStartValue": 28,
+                    "m_flComputeBloomStrength": 32,
+                    "m_flComputeBloomThreshold": 36,
+                    "m_flComputeBloomRadius": 40,
+                    "m_flComputeBloomEffectsScale": 44,
+                    "m_flComputeBloomLensDirtStrength": 48,
+                    "m_flComputeBloomLensDirtBlackLevel": 52,
+                    "m_flBlurWeight": 56,
+                    "m_vBlurTint": 76
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "MaterialParamFloat_t": {
+                "parent": null,
+                "fields": {
+                    "m_flValue": 8
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "MaterialParamTexture_t": {
+                "parent": null,
+                "fields": {
+                    "m_pValue": 8
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            }
+        },
+        "enums": {
+            "VertJustification_e": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "VERT_JUSTIFICATION_TOP": 0,
+                    "VERT_JUSTIFICATION_CENTER": 1,
+                    "VERT_JUSTIFICATION_BOTTOM": 2,
+                    "VERT_JUSTIFICATION_NONE": 3
+                }
+            },
+            "LayoutPositionType_e": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "LAYOUTPOSITIONTYPE_VIEWPORT_RELATIVE": 0,
+                    "LAYOUTPOSITIONTYPE_FRACTIONAL": 1,
+                    "LAYOUTPOSITIONTYPE_NONE": 2
+                }
+            },
+            "ViewFadeMode_t": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "VIEW_FADE_CONSTANT_COLOR": 0,
+                    "VIEW_FADE_MODULATE": 1,
+                    "VIEW_FADE_MOD2X": 2
+                }
+            },
+            "BloomBlendMode_t": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "BLOOM_BLEND_ADD": 0,
+                    "BLOOM_BLEND_SCREEN": 1,
+                    "BLOOM_BLEND_BLUR": 2
+                }
+            },
+            "HorizJustification_e": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "HORIZ_JUSTIFICATION_LEFT": 0,
+                    "HORIZ_JUSTIFICATION_CENTER": 1,
+                    "HORIZ_JUSTIFICATION_RIGHT": 2,
+                    "HORIZ_JUSTIFICATION_NONE": 3
+                }
+            }
+        }
+    }
+}

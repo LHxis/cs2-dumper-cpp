@@ -1,0 +1,1461 @@
+{
+    "pulse_system.dll": {
+        "classes": {
+            "CPulseCell_Step_TestDomainDestroyFakeEntity": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    }
+                ]
+            },
+            "CPulseCell_WaitForCursorsWithTag": {
+                "parent": null,
+                "fields": {
+                    "m_bTagSelfWhenComplete": 152,
+                    "m_nDesiredKillPriority": 156
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorHeaderIcon"
+                    }
+                ]
+            },
+            "CPulseCell_Test_NoInflow": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseGraphInstance_TestDomain_FakeEntityOwner": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_Base": {
+                "parent": null,
+                "fields": {
+                    "m_nEditorNodeID": 8
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulse_ResumePoint": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CTestDomainDerived_Cursor": {
+                "parent": null,
+                "fields": {
+                    "m_nCursorValueA": 208,
+                    "m_nCursorValueB": 212
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_PickBestOutflowSelector": {
+                "parent": null,
+                "fields": {
+                    "m_nCheckType": 72,
+                    "m_OutflowList": 80
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorHeaderIcon"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorCanvasItemSpecKV3"
+                    }
+                ]
+            },
+            "CPulseTestFuncs_LibraryA": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    }
+                ]
+            },
+            "CPulseCell_WaitForObservable": {
+                "parent": null,
+                "fields": {
+                    "m_Condition": 72,
+                    "m_OnTrue": 192
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorHeaderIcon"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    }
+                ]
+            },
+            "CPulse_OutflowConnection": {
+                "parent": null,
+                "fields": {
+                    "m_SourceOutflowName": 0,
+                    "m_nDestChunk": 16,
+                    "m_nInstruction": 20,
+                    "m_OutflowRegisterMap": 24
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseGraphDef": {
+                "parent": null,
+                "fields": {
+                    "m_DomainIdentifier": 8,
+                    "m_DomainSubType": 24,
+                    "m_ParentMapName": 48,
+                    "m_ParentXmlName": 64,
+                    "m_Chunks": 80,
+                    "m_Cells": 104,
+                    "m_Vars": 128,
+                    "m_PublicOutputs": 152,
+                    "m_InvokeBindings": 176,
+                    "m_CallInfos": 200,
+                    "m_Constants": 224,
+                    "m_DomainValues": 248,
+                    "m_BlackboardReferences": 272,
+                    "m_OutputConnections": 296
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseGraphInstance_TestDomain_UseReadOnlyBlackboardView": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_FireCursors": {
+                "parent": null,
+                "fields": {
+                    "m_Outflows": 72,
+                    "m_bWaitForChildOutflows": 96,
+                    "m_OnFinished": 104,
+                    "m_OnCanceled": 176
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Timeline__TimelineEvent_t": {
+                "parent": null,
+                "fields": {
+                    "m_flTimeFromPrevious": 0,
+                    "m_EventOutflow": 8
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_IntervalTimer__CursorState_t": {
+                "parent": null,
+                "fields": {
+                    "m_StartTime": 0,
+                    "m_EndTime": 4,
+                    "m_flWaitInterval": 8,
+                    "m_flWaitIntervalHigh": 12,
+                    "m_bCompleteOnNextWake": 16
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_BaseRequirement": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_BaseState": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorHeaderIcon"
+                    }
+                ]
+            },
+            "OutflowWithRequirements_t": {
+                "parent": null,
+                "fields": {
+                    "m_Connection": 0,
+                    "m_DestinationFlowNodeID": 72,
+                    "m_RequirementNodeIDs": 80,
+                    "m_nCursorStateBlockIndex": 104
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_IsRequirementValid": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Value_Gradient": {
+                "parent": null,
+                "fields": {
+                    "m_Gradient": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    }
+                ]
+            },
+            "CPulseCursorFuncs": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    }
+                ]
+            },
+            "PulseNodeDynamicOutflows_t__DynamicOutflow_t": {
+                "parent": null,
+                "fields": {
+                    "m_OutflowID": 0,
+                    "m_Connection": 8
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Test_MultiOutflow_WithParams": {
+                "parent": null,
+                "fields": {
+                    "m_Out1": 72,
+                    "m_Out2": 144
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CBasePulseGraphInstance": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_Inflow_GraphHook": {
+                "parent": null,
+                "fields": {
+                    "m_HookName": 128
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "SignatureOutflow_Resume": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t": {
+                "parent": null,
+                "fields": {
+                    "nTestStep": 0
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseTurtleGraphicsCursor": {
+                "parent": null,
+                "fields": {
+                    "m_Color": 208,
+                    "m_vPos": 212,
+                    "m_flHeadingDeg": 220,
+                    "m_bPenUp": 224
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_TestWaitWithCursorState__CursorState_t": {
+                "parent": null,
+                "fields": {
+                    "flWaitValue": 0,
+                    "bFailOnCancel": 4
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Inflow_BaseEntrypoint": {
+                "parent": null,
+                "fields": {
+                    "m_EntryChunk": 72,
+                    "m_RegisterMap": 80
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Test_MultiInflow_NoDefault": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_WaitForCursorsWithTagBase": {
+                "parent": null,
+                "fields": {
+                    "m_nCursorsAllowedToWait": 72,
+                    "m_WaitComplete": 80
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorCanvasItemSpecKV3"
+                    }
+                ]
+            },
+            "CPulse_InvokeBinding": {
+                "parent": null,
+                "fields": {
+                    "m_RegisterMap": 0,
+                    "m_FuncName": 48,
+                    "m_nCellIndex": 64,
+                    "m_nSrcChunk": 68,
+                    "m_nSrcInstruction": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_IntervalTimer": {
+                "parent": null,
+                "fields": {
+                    "m_Completed": 72,
+                    "m_OnInterval": 144
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorHeaderIcon"
+                    }
+                ]
+            },
+            "CPulseTestScriptLib": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    }
+                ]
+            },
+            "CPulseCell_BaseLerp": {
+                "parent": null,
+                "fields": {
+                    "m_WakeResume": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Value_TestValue50": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    }
+                ]
+            },
+            "CPulseCell_Test_MultiOutflow_WithParams_Yielding": {
+                "parent": null,
+                "fields": {
+                    "m_Out1": 72,
+                    "m_AsyncChild1": 144,
+                    "m_AsyncChild2": 216,
+                    "m_YieldResume1": 288,
+                    "m_YieldResume2": 360
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Value_Curve": {
+                "parent": null,
+                "fields": {
+                    "m_Curve": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    }
+                ]
+            },
+            "CPulseCell_Inflow_EventHandler": {
+                "parent": null,
+                "fields": {
+                    "m_EventName": 128
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_BaseFlow": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Step_TestDomainTracepoint": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    }
+                ]
+            },
+            "CPulseCell_Outflow_CycleShuffled__InstanceState_t": {
+                "parent": null,
+                "fields": {
+                    "m_Shuffle": 0,
+                    "m_nNextShuffle": 32
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_BaseLerp__CursorState_t": {
+                "parent": null,
+                "fields": {
+                    "m_StartTime": 0,
+                    "m_EndTime": 4
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseGraphInstance_TestDomain_Derived": {
+                "parent": null,
+                "fields": {
+                    "m_nInstanceValueX": 352
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_WaitForCursorsWithTagBase__CursorState_t": {
+                "parent": null,
+                "fields": {
+                    "m_TagName": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseArraylib": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    }
+                ]
+            },
+            "CPulseGraphInstance_TestDomain": {
+                "parent": null,
+                "fields": {
+                    "m_bIsRunningUnitTests": 304,
+                    "m_bExplicitTimeStepping": 305,
+                    "m_bExpectingToDestroyWithYieldedCursors": 306,
+                    "m_bQuietTracepoints": 307,
+                    "m_bExpectingCursorTerminatedDueToMaxInstructions": 308,
+                    "m_nCursorsTerminatedDueToMaxInstructions": 312,
+                    "m_nNextValidateIndex": 316,
+                    "m_Tracepoints": 320,
+                    "m_bTestYesOrNoPath": 344
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "SignatureOutflow_Continue": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_Timeline": {
+                "parent": null,
+                "fields": {
+                    "m_TimelineEvents": 72,
+                    "m_bWaitForChildOutflows": 96,
+                    "m_OnFinished": 104,
+                    "m_OnCanceled": 176
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Inflow_EntOutputHandler": {
+                "parent": null,
+                "fields": {
+                    "m_SourceEntity": 128,
+                    "m_SourceOutput": 144,
+                    "m_ExpectedParamType": 160
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Outflow_TestExplicitYesNo": {
+                "parent": null,
+                "fields": {
+                    "m_Yes": 72,
+                    "m_No": 144
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    }
+                ]
+            },
+            "CPulseCell_Outflow_TestRandomYesNo": {
+                "parent": null,
+                "fields": {
+                    "m_Yes": 72,
+                    "m_No": 144
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    }
+                ]
+            },
+            "CPulseCell_Outflow_CycleOrdered__InstanceState_t": {
+                "parent": null,
+                "fields": {
+                    "m_nNextIndex": 0
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_LimitCount__InstanceState_t": {
+                "parent": null,
+                "fields": {
+                    "m_nCurrentCount": 0
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "FakeEntity_tAPI": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_Test_MultiInflow_WithDefault": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Step_DebugLog": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_BaseYieldingInflow": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "PulseNodeDynamicOutflows_t": {
+                "parent": null,
+                "fields": {
+                    "m_Outflows": 0
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_IsRequirementValid__Criteria_t": {
+                "parent": null,
+                "fields": {
+                    "m_bIsValid": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_Inflow_ObservableVariableListener": {
+                "parent": null,
+                "fields": {
+                    "m_nBlackboardReference": 128,
+                    "m_bSelfReference": 130
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Outflow_CycleOrdered": {
+                "parent": null,
+                "fields": {
+                    "m_Outputs": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "PulseSelectorOutflowList_t": {
+                "parent": null,
+                "fields": {
+                    "m_Outflows": 0
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseGraphInstance_TurtleGraphics": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_Val_TestDomainGetEntityName": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    }
+                ]
+            },
+            "CPulseCell_Inflow_Wait": {
+                "parent": null,
+                "fields": {
+                    "m_WakeResume": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorHeaderIcon"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorCanvasItemSpecKV3"
+                    }
+                ]
+            },
+            "CPulseCell_TestWaitWithCursorState": {
+                "parent": null,
+                "fields": {
+                    "m_WakeResume": 72,
+                    "m_WakeCancel": 144,
+                    "m_WakeFail": 216
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Outflow_CycleShuffled": {
+                "parent": null,
+                "fields": {
+                    "m_Outputs": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Inflow_Method": {
+                "parent": null,
+                "fields": {
+                    "m_MethodName": 128,
+                    "m_Description": 144,
+                    "m_bIsPublic": 152,
+                    "m_ReturnType": 160,
+                    "m_Args": 184
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_BaseValue": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_BooleanSwitchState": {
+                "parent": null,
+                "fields": {
+                    "m_Condition": 72,
+                    "m_SubGraph": 192,
+                    "m_WhenTrue": 264,
+                    "m_WhenFalse": 336
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorCanvasItemSpecKV3"
+                    }
+                ]
+            },
+            "FakeEntityDerivedB_tAPI": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_Inflow_Yield": {
+                "parent": null,
+                "fields": {
+                    "m_UnyieldResume": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseMathlib": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    }
+                ]
+            },
+            "CPulseCell_Unknown": {
+                "parent": null,
+                "fields": {
+                    "m_UnknownKeys": 72
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_Outflow_CycleRandom": {
+                "parent": null,
+                "fields": {
+                    "m_Outputs": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Step_PublicOutput": {
+                "parent": null,
+                "fields": {
+                    "m_OutputIndex": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Val_TestDomainFindEntityByName": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    }
+                ]
+            },
+            "CPulse_BlackboardReference": {
+                "parent": null,
+                "fields": {
+                    "m_hBlackboardResource": 0,
+                    "m_BlackboardResource": 8,
+                    "m_nNodeID": 24,
+                    "m_NodeName": 32
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_Value_RandomInt": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorHeaderIcon"
+                    }
+                ]
+            },
+            "CPulseCell_Step_TestDomainEntFire": {
+                "parent": null,
+                "fields": {
+                    "m_Input": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorHeaderText"
+                    }
+                ]
+            },
+            "FakeEntityDerivedA_tAPI": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_ExampleSelector": {
+                "parent": null,
+                "fields": {
+                    "m_OutflowList": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorHeaderIcon"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorCanvasItemSpecKV3"
+                    }
+                ]
+            },
+            "CPulse_CallInfo": {
+                "parent": null,
+                "fields": {
+                    "m_PortName": 0,
+                    "m_nEditorNodeID": 16,
+                    "m_RegisterMap": 24,
+                    "m_CallMethodID": 72,
+                    "m_nSrcChunk": 76,
+                    "m_nSrcInstruction": 80
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_InlineNodeSkipSelector": {
+                "parent": null,
+                "fields": {
+                    "m_nFlowNodeID": 72,
+                    "m_bAnd": 76,
+                    "m_PassOutflow": 80,
+                    "m_FailOutflow": 104
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_ExampleCriteria__Criteria_t": {
+                "parent": null,
+                "fields": {
+                    "m_flFloatValue1": 0,
+                    "m_flFloatValue2": 4,
+                    "m_bMyBool": 8
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_ExampleCriteria": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    }
+                ]
+            },
+            "CPulseCell_LimitCount": {
+                "parent": null,
+                "fields": {
+                    "m_nLimitCount": 72
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    }
+                ]
+            },
+            "CPulseCell_Step_CallExternalMethod": {
+                "parent": null,
+                "fields": {
+                    "m_MethodName": 72,
+                    "m_GameBlackboard": 88,
+                    "m_ExpectedArgs": 104,
+                    "m_nAsyncCallMode": 120,
+                    "m_OnFinished": 128
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "PulseObservableBoolExpression_t": {
+                "parent": null,
+                "fields": {
+                    "m_EvaluateConnection": 0,
+                    "m_DependentObservableVars": 72,
+                    "m_DependentObservableBlackboardReferences": 96
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    }
+                ]
+            },
+            "CPulseCell_LimitCount__Criteria_t": {
+                "parent": null,
+                "fields": {
+                    "m_bLimitCountPasses": 0
+                },
+                "metadata": [
+                    
+                ]
+            },
+            "CPulseCell_Step_TestDomainCreateFakeEntity": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    }
+                ]
+            },
+            "CPulseCell_CursorQueue": {
+                "parent": null,
+                "fields": {
+                    "m_nCursorsAllowedToRunParallel": 152
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorHeaderIcon"
+                    }
+                ]
+            },
+            "CPulseCell_Value_RandomFloat": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    {
+                        "type": "Unknown",
+                        "name": "MGetKV3ClassDefaults"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyFriendlyName"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPropertyDescription"
+                    },
+                    {
+                        "type": "Unknown",
+                        "name": "MPulseEditorHeaderIcon"
+                    }
+                ]
+            },
+            "CPulseExecCursor": {
+                "parent": null,
+                "fields": {
+                    
+                },
+                "metadata": [
+                    
+                ]
+            }
+        },
+        "enums": {
+            "PulseBestOutflowRules_t": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "SORT_BY_NUMBER_OF_VALID_CRITERIA": 0,
+                    "SORT_BY_OUTFLOW_INDEX": 1
+                }
+            },
+            "PulseTestEnumShape_t": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "CIRCLE": 100,
+                    "SQUARE": 200,
+                    "TRIANGLE": 300
+                }
+            },
+            "PulseCursorCancelPriority_t": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "None": 0,
+                    "CancelOnSucceeded": 1,
+                    "SoftCancel": 2,
+                    "HardCancel": 3
+                }
+            },
+            "PulseMethodCallMode_t": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "SYNC_WAIT_FOR_COMPLETION": 0,
+                    "ASYNC_FIRE_AND_FORGET": 1
+                }
+            },
+            "PulseTestEnumColor_t": {
+                "alignment": 4,
+                "type": "uint32",
+                "members": {
+                    "BLACK": 0,
+                    "WHITE": 1,
+                    "RED": 2,
+                    "GREEN": 3,
+                    "BLUE": 4
+                }
+            }
+        }
+    }
+}
